@@ -1,12 +1,12 @@
 # BatsyBot
-  A reusable twitter bot made with the Node.js [Twit](https://www.npmjs.com/package/twit) package 
+  A reusable twitter bot skeleton made with the Node.js [Twit](https://www.npmjs.com/package/twit) package 
   
 
 ## Motivation
-    I was interested in how bots work, so I decided to make one but didn't have a bot idea in mind.
-That's when I though about making a bot that can be customised to make almost everything. So when I or anyone 
-needs to add a npm package to fulfill a certain job, minimum modifications to the original project would be needed. That way, 
-the programmer will be focused on the important parts of the bot's job rather than building a bot from scratch. The npm package 
+    I was interested in how bots work, so I decided to make one but I didn't have a bot idea in mind.
+That's when I thought about making a bot that can be customised to make almost everything. So when I or anyone 
+needs to add a npm package to fulfill a certain job, minimum modifications to the original project would be needed. In that way, 
+the programmer will focus on the important parts of the bot's job rather than building a bot from scratch. The npm package 
 [Twit](https://www.npmjs.com/package/twit) was extremely helpful and well documented.
 
 ## Functions
@@ -27,7 +27,7 @@ the programmer will be focused on the important parts of the bot's job rather th
   
 ## How this works
   The first thing that happens is that an instance of [Twit's](https://www.npmjs.com/package/twit) package is created with your own 
-  API keys. After that, a __user stream__ is created to wait and listen for incoming follows, tweets and DMs. Read [Twitter's API documentation](https://developer.twitter.com/en/docs.html) to 
+  Twitter API keys. After that, a __user stream__ is created to wait and listen for incoming follows, tweets and DMs. Read [Twitter's API documentation](https://developer.twitter.com/en/docs.html) to 
   know about other streams.\
   \
   When the stream receives an incoming object it triggers the respective __handler__. Handlers in my project 
@@ -55,8 +55,8 @@ the programmer will be focused on the important parts of the bot's job rather th
    This is the most important file. This is where you decide on how to react when a new tweet, mention or DM enters your stream.
   - - - -
   * __handlers.js__\
-  Don't feel threatened by those huge walls of code! I've gathered every usable data from the tweet, DM and follow objects so you can 
-  pass them as arguments in the called functions from __actions.js__ which you will need to change anyway.
+  Don't feel threatened by those huge walls of code! I've gathered all useful data from the tweet, DM and follow objects so you can 
+  pass them as arguments to the called functions from __actions.js__ which you will need to change anyway.
   - - - -
   * __package.json__\
   You have to change the start script target file in this file to whatever you decide to name your new __bot.js__ file
@@ -71,7 +71,7 @@ the programmer will be focused on the important parts of the bot's job rather th
   * Making a blueprint or basic outline for the mechanism of searching for tweets and their different filters.\
   \
   But after all, I wasn't encouraged to implement these features in the main project because not all applications require these 
-  features so it would be somehow harder to modify the files for your bot's purpose which is against the whole project's idea.
+  features so it would be somehow harder to modify the files for your bot's purpose which is against the project's main idea.
   
   ## Personal Request
    Anyone can use this project as they like but I would love to get credited in any possible way. Let it be a mention on Twitter, an E-mail or 
