@@ -47,5 +47,9 @@ module.exports={
 		}
 
 		main.T.post('statuses/update',tweet,log.replyLog);
+	},
+	
+	retweet : function(tweetId){
+		main.T.post('statuses/retweet/:id', { id: tweetId }, log.retweetLog);
 	}
 }
