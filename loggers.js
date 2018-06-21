@@ -30,6 +30,13 @@ module.exports={
 			console.log(err);
 		else
 			console.log('Reply sent!');
+	},
+	
+	retweetLog : function(err,data,response){
+		if(err)
+			console.log(err);
+		else
+			console.log('Retweet sent!');
 	}
 	
 }
