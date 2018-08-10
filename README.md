@@ -61,8 +61,13 @@ the programmer will focus on the important parts of the bot's job rather than bu
   * __package.json__\
   You have to change the start script target file in this file to whatever you decide to name your new __bot.js__ file
   - - - -
+  If you face any problems on platforms other than Windows, I advise that you delete the node_modules directory and install
+  the following packages:
+  * [twit](https://www.npmjs.com/package/twit)
+
   After that, all you have to do to run your bot is to open your terminal, navigate to the project directory and type:\
   `npm start`\
+  \
   Simple as that!
   
   ## Probable future features
