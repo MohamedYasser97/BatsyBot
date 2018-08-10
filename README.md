@@ -9,7 +9,7 @@ needs to add a npm package to fulfill a certain job, minimum modifications to th
 the programmer will focus on the important parts of the bot's job rather than building a bot from scratch. The npm package 
 [Twit](https://www.npmjs.com/package/twit) was extremely helpful and well documented.
 
-## Functions
+## Features
   When you clone this project and don't edit anything, you will have a bot that can:
   * Tweet when connected to a server.
   * Thanks followers when followed.
@@ -74,8 +74,7 @@ the programmer will focus on the important parts of the bot's job rather than bu
   features so it would be somehow harder to modify the files for your bot's purpose which is against the project's main idea.
   
   ## Personal Request
-   Anyone can use this project as they like but I would love to get credited in any possible way. Let it be a mention on Twitter, an E-mail or 
-   a Facebook message. Just let me know if my project is useful in any way or if something needs to be fixed. Happy coding and I hope you build amazing bots!\
+   I would love to get credited in any possible way. You can mention me in your bot's Twitter bio or just mention my name or put any of my contact links from below. Please DO let me know if my project is useful in any way or if something needs to be fixed. Happy coding and I hope you build amazing bots!\
    [Twitter](https://twitter.com/yassermo97)\
    [Facebook](https://www.facebook.com/myasser99)\
    __mhmd.yasser@gmail.com__
